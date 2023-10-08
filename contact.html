@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts-HandMarked</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <!-- Add this in the head section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+   
+
+   
+     <div class="container">
+
+        <div class="navbar"> <!--navigation bar class -->
+            <div class="logo">
+                <img src="images/logo.png" width ="125px"> <!--logo of wbesite-->
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href ="index.html">Home</a> </li>
+                    <li><a href ="products.html">Products</a> </li>
+                    <li><a href ="Account.html">Account</a> </li>
+                    <li><a href ="contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" 
+            onclick ="toggleMenu()">
+
+        </div>
+     </div>
+<!------contact page   -->
+<div class="account-page" style="color:white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-2" style="color:white;">
+                <img src="images/accounts.png" width="100%" alt="Contact Image">
+            </div>
+            <div class="col-2">
+                
+                    <h2>Contact Us</h2>
+                    <br>
+                    <p>If you have any questions or need assistance, feel free to get in touch with us:</p>
+                    <br>
+                    <br>
+
+
+
+                    <!-- Contact Details -->
+                    <div class="contact-section">
+                        <div class="contact-info">
+                            <p>Email:   aditya22goswami08@gmail.com</p>  
+                        </div>
+                      
+                        <div class="contact-info">
+                            <p>Phone:   9711749407 </p>
+                        </div>
+                        
+                        <div class="contact-info"> 
+                            <p>Address:  Ace Aspire ,Techzone-4 <br>
+                            Greater Noida, Uttar-Pradesh-201306 </p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com/in/adityagoswami2002/" target="_blank">
+                            <i class="fab fa-linkedin social-icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/go.aditya_/" target="_blank">
+                            <i class="fab fa-instagram social-icon"></i>
+                        </a>
+                        <a href="https://github.com/AdiGo22" target="_blank">
+                            <i class="fab fa-github social-icon"></i>
+                        </a>
+                    </div>
+                    
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App And Ios Mobile Phone</h3>
+                <p>Download app for both Android And ios Mobile Phones</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png">
+                <h3>Download Our App And Ios Mobile Phone</h3>
+            </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li> Coupons</li>
+                <li> Blog Post</li>
+                <li> Return Policy</li>
+                <li> Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow US</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright - Aditya Goswami</p>
+    </div>
+    </div>
+
+ <!------js for toggle menu-->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function toggleMenu(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+          MenuItems.style.maxHeight = "200px";
+      }
+      else{
+          MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+</html>
